@@ -1,0 +1,23 @@
+header {
+    background-color: pink;
+  }
+  ul {
+    display: flex;
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    background-color: pink;
+  }
+   ul>li {
+    padding: 10px;
+   }
+  ul > li > a:hover {
+    background-color: blanchedalmond;
+  }
+  footer{
+    text-align: center;
+    bottom: 4px;
+    position: fixed;
+    background-color: pink;
+    padding-right: 1000px;
+  }

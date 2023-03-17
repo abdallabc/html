@@ -1,0 +1,105 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+.parent{
+    height: 570px;
+    background-image: url(myy.jpeg);
+}
+.header{
+    display: flex;
+    background-color: white;
+    padding: 42px;
+}
+.icon{
+    font-size: 18px;
+}
+.menu{
+    display: flex;
+    position: absolute;
+    left: 480px;
+    font-size: 15px;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+a:hover{
+    color: white;
+    border: solid blue;
+    border-radius: 50px;
+    background-color: blue;
+    
+}
+.button{
+    position: absolute;
+    right: 50px;
+    top: 55px;
+}
+.button button{
+    border: solid blue;
+    border-radius: 10px;
+    padding: 8px;
+    cursor: pointer;
+}
+.content{
+    color: white;
+    position: absolute;
+    top: 360px;
+    left: 60px;
+    font-size: 25px;
+}
+.content button{
+    color: black;
+    border: solid white;
+    background-color: white;
+    padding: 10px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    position: absolute;
+    top: 550px;
+    left: 100px;
+}
+.main-item{
+    display: inline-block;
+    text-align: center;
+    border: solid white;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: -3px 3px lightgray;
+    padding: 20px;
+}
+.number{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    position: absolute;
+    top: 850px;
+    left: 400px;
+}
+.one{
+    border: solid lightgray;
+    border-top: solid blue;
+    border-radius: 10px;
+    box-shadow: -3px 3px lightgray;
+    padding: 30px;
+}
+.footer{
+    color: white;
+    position: relative;
+    top: 700px;
+    text-align: center;
+    background-color: blue;
+    padding: 50px;
+}

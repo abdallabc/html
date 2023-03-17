@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(3, 69, 78);
+}
+div.log{
+    display: block;
+    justify-content: center;
+    align-content: center;
+    border: solid black;
+    border-radius: 10px;
+    padding: 30px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-left: 570px;
+    margin-top: 200px;
+    margin-right: 630px;
+    background-color: rgb(6, 52, 87);
+}
+p{
+    font-size: 30px;
+    align-items: center;
+
+}
+input{
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+button{
+    font-size: 20px;
+    color: rgb(84, 47, 47);
+    background-color: rgb(26, 81, 99);
+    align-content: center;
+    justify-content: center;
+    border-radius: 10px;
+    float: right;
+    border: hidden;
+}
+button:hover{
+    color: rgb(231, 146, 42);
+    background-color: rgb(36, 36, 103);
+}
